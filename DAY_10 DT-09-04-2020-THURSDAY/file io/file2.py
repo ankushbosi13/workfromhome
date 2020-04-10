@@ -1,0 +1,5 @@
+file=open("test.txt",mode="r+")
+file.write("ihave written susscfully")
+file.seek(0)
+read = file.readlines()
+print(read)
